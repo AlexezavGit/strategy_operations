@@ -31,7 +31,7 @@
 Лінія A (повний стек):  DigitalBus ──→ Hum_Fintech_infrastructure ──┐
 Лінія B (повний стек):  site_front (кабінети + docs-контекст)       ├──→ ОДИН монорепо
 Лінія C (Lovable):      gazelles-flow ──→ gazelle-pathways ──→ remix-of-mhpss-connect
-Лінія D (пітчі/візуали): blomberg + visualizer + terminal + dashboard  → мет与研究 archive/
+Лінія D (пітчі/візуали): blomberg + visualizer + terminal + dashboard  → archive/
 ```
 
 Найдорожче дублювання: №1 і №2 — дві копії однієї архітектури (однаковий replit.md, 14+14 спільних сторінок), кожна зі своїми кабінетами.
@@ -55,7 +55,7 @@ feel-again/               (нове імʼя або існуючий репо)
 ## 4. Фази (порядок мінімізує ризик)
 
 **Фаза 0 — захист (1 день, до дотику до коду).**
-Створити мітку `pre-merge-snapshot` на main кожного з 12 репо. Це страховка від повторення «зникнення сесії»: усе, що існує в git-тегах, вже нічого не fears.
+Створити мітку `pre-merge-snapshot` на main кожного з 12 репо. Це страховка від повторення «зникнення сесії»: усе, що існує в git-тегах, вже нічого не боїться.
 
 **Фаза 1 — архівування (1–2 дні).**
 DigitalBus, gazelles-flow, blomberg, Strategic-Visualizer-2, terminal, dashboard → GitHub archive (read-only). Нічого не видаляється; історія комітів лишається.
@@ -64,7 +64,7 @@ DigitalBus, gazelles-flow, blomberg, Strategic-Visualizer-2, terminal, dashboard
 Диф-аудит 14 спільних сторінок DigitalBus-лінії vs site_front-кабінетів; перенесення role-based cabinet logic (Passport, scrypt, PG-сесії) у базу; єдиний drizzle schema.
 
 **Фаза 3 — консорціум (3–5 днів).**
-remix-of-mhpss-connect → `apps/consortium`; страницы, i18n-словники, integrations.
+remix-of-mhpss-connect → `apps/consortium`; сторінки, i18n-словники, integrations.
 
 **Фаза 4 — спільні пакети (за потреби).**
 packages/ui, packages/i18n — тільки якщо дублювання реально заважає (не поспішати).
